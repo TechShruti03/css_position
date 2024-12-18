@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Absolute Position Page</title>
+    <style>
+      .heading{
+        text-align: center;
+        color: black;
+        font-size: 30px;
+    }
+    .card {
+        height: 250px;
+        width: 450px;
+        font-size: 15px;
+        background-color: #aedff4;
+        margin-top: 100px;
+        position: relative;
+        border-radius: 10px;
+      }
+      .container{
+        width:80%;
+        padding:20px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap:wrap;
+        margin: 40px auto;
+        font-size: 25px;
+      }
+      .img {
+        position: absolute;
+        width: 50px;
+        left: 5px;
+        top: -50px;
+        margin:20px;
+        padding: 35px;
+        border-radius: 50%;
+        background-color: #b3edf3;
+      }
+      .pg{
+        padding: 40px;
+      }
+    </style>
+  </head>
+    <body style="background-color: #f4d1f9;">
+      <h1 class="heading">Absolute Position in CSS..!!</h1>
+    <div class="container">
+    <p class="para"></p>An element with position:absolute; is positioned relative to the nearest positioned ancestor<br>(instead of positioned relative to the viewport)</p>
+  </div>
+  <center>
+    <div class="card">
+      <img src="C:\Users\khale\OneDrive\Desktop\css_position\telephone.png" class="img" />
+      <p class="pg"><b><h1>Contact Us...</h1><br>
+      <b>Phone:-- 02422 2541</b><br>
+      <b>Email:-- shauryaweb@gmail.com</b>
+    
+    </p>
+    </div>
+  </center>
+  </body>
+</html>
