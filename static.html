@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Static Position in CSS</title>
+    <style>
+    .heading{
+        text-align: center;
+        color: #410768;
+    }
+    .container{
+        width:80%;
+        padding:20px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap:wrap;
+        margin: 40px auto;
+        font-size: 20px;
+        color:hsl(271, 87%, 33%)
+   }
+   .btn1{
+    border-width: 6px;
+    border-color: #94e46f;
+    border-radius: 2px;
+    position: static;
+    top:50px;
+    
+   }
+</style>
+</head>
+<body style="background-color: skyblue;">
+    <h1 class="heading">Static Position in CSS</h1>
+    <div class="container">
+    <p>The Static is the default Position for HTML elements.<br>All elements are in order as they appear in the document.<br>
+        The static position is applied to all elements.</p>
+    </div>
+    <div>
+    <button class="btn1">Static</button>
+    </div>
+</body>
+</html> 
