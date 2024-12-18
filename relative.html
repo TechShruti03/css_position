@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Relative Position Page</title>
+    <style>
+    .heading{
+        text-align: center;
+        color: hwb(196 12% 8%);
+        font-size: 40px;
+    }
+    .para
+    {
+        font-size:30px;
+        color:hwb(196 12% 8%);
+    }
+    .container{
+        width:80%;
+        padding:20px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap:wrap;
+        margin: 40px auto;
+   }
+   .btn1{
+    border-width: 5px;
+    border-color: #0c7866;
+    border-radius: 10px;
+    position: relative;
+    top:50%;
+    bottom: 50%;
+    left: 45%;
+    right:50%;
+    font-size: 30px;
+   }
+</style>
+</head>
+<body style="background-color:#aad7e8;">
+    <h1 class="heading">Relative Position...!</h1>
+    <div class="container">
+    <p class="para">The position is the relative to original position or nearest element</p>
+    </div>
+    <div>
+    <button class="btn1">Relative</button>
+    </div>
+</body>
+</html>
